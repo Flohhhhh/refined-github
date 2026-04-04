@@ -1,0 +1,11 @@
+:root {
+	--rgh-file-age-orange-days: 23.1481481481;
+	--rgh-file-age-gray-days: 365;
+	--rgh-file-age-hot-color: #c24e00;
+	--rgh-file-age-min-opacity: 0.45;
+}
+
+[data-rgh-file-age-color] {
+	color: var(--rgh-file-age-color) !important;
+	opacity: var(--rgh-file-age-opacity, 1);
+}
